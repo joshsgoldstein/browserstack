@@ -1,0 +1,71 @@
+/Users/josh/Documents/browserstack/starter [git::master *] [josh@Joshs-MacBook-Pro-2] [9:49]
+> npm test
+
+> starter@0.1.0 test /Users/josh/Documents/browserstack/starter
+> nightwatch -c conf/multiple.conf.js -e firefoxWin,firefoxMac,chromeWin,chromeMac,edge
+
+ firefoxWin  Using insecure HTTP connection on port 80. Consider using SSL by setting port to 443 in your Nightwatch configuration.
+ firefoxWin  [Homepage] Test Suite
+ firefoxWin  =====================
+ firefoxWin  - Connecting to hub-cloud.browserstack.com on port 80...
+ firefoxWin
+ firefoxWin  ℹ Connected to hub-cloud.browserstack.com on port 80 (10750ms).
+ firefoxWin  Using: firefox (76.0) on windows 10.0 platform.
+ firefoxWin  Results for:  Demo test
+ firefoxWin  ✔ Testing if the page title contains 'Tech Kid News' (106ms)
+ firefoxWin  ✔ Element <#termInput> was present after 110 milliseconds.
+ firefoxWin  ✔ Testing if element <input[id=termInput]> is visible (269ms)
+ firefoxWin  ✔ Testing if element <#textArea> contains text 'Marco' (243ms)
+ firefoxWin  ✔ firefoxWin [Homepage] Demo test (3.846s)
+ firefoxMac  Using insecure HTTP connection on port 80. Consider using SSL by setting port to 443 in your Nightwatch configuration.
+ firefoxMac  [Homepage] Test Suite
+ firefoxMac  =====================
+ firefoxMac  - Connecting to hub-cloud.browserstack.com on port 80...
+ firefoxMac
+ firefoxMac  ℹ Connected to hub-cloud.browserstack.com on port 80 (8865ms).
+ firefoxMac  Using: firefox (75.0) on mac 19.0.0 platform.
+ firefoxMac  Results for:  Demo test
+ firefoxMac  ✔ Testing if the page title contains 'Tech Kid News' (106ms)
+ firefoxMac  ✔ Element <#termInput> was present after 110 milliseconds.
+ firefoxMac  ✔ Testing if element <input[id=termInput]> is visible (223ms)
+ firefoxMac  ✔ Testing if element <#textArea> contains text 'Marco' (204ms)
+ firefoxMac  ✔ firefoxMac [Homepage] Demo test (3.903s)
+ chromeWin  Using insecure HTTP connection on port 80. Consider using SSL by setting port to 443 in your Nightwatch configuration.
+ chromeWin  [Homepage] Test Suite
+ chromeWin  =====================
+ chromeWin  - Connecting to hub-cloud.browserstack.com on port 80...
+ chromeWin
+ chromeWin  ℹ Connected to hub-cloud.browserstack.com on port 80 (7434ms).
+ chromeWin  Using: chrome (81.0.4044.92) on WINDOWS platform.
+ chromeWin  Results for:  Demo test
+ chromeWin  ✔ Testing if the page title contains 'Tech Kid News' (167ms)
+ chromeWin  ✔ Element <#termInput> was present after 153 milliseconds.
+ chromeWin  ✔ Testing if element <input[id=termInput]> is visible (338ms)
+ chromeWin  ✔ Testing if element <#textArea> contains text 'Marco' (433ms)
+ chromeWin  ✔ chromeWin [Homepage] Demo test (6.135s)
+ chromeMac  Using insecure HTTP connection on port 80. Consider using SSL by setting port to 443 in your Nightwatch configuration.
+ chromeMac  [Homepage] Test Suite
+ chromeMac  =====================
+ chromeMac  - Connecting to hub-cloud.browserstack.com on port 80...
+ chromeMac
+ chromeMac  ℹ Connected to hub-cloud.browserstack.com on port 80 (3195ms).
+ chromeMac  Using: chrome (81.0.4044.92) on MAC platform.
+ chromeMac  Results for:  Demo test
+ chromeMac  ✔ Testing if the page title contains 'Tech Kid News' (127ms)
+ chromeMac  ✔ Element <#termInput> was present after 113 milliseconds.
+ chromeMac  ✔ Testing if element <input[id=termInput]> is visible (202ms)
+ chromeMac  ✔ Testing if element <#textArea> contains text 'Marco' (249ms)
+ chromeMac  ✔ chromeMac [Homepage] Demo test (2.793s)
+ edge  Using insecure HTTP connection on port 80. Consider using SSL by setting port to 443 in your Nightwatch configuration.
+ edge  [Homepage] Test Suite
+ edge  =====================
+ edge  - Connecting to hub-cloud.browserstack.com on port 80...
+ edge
+ edge  ℹ Connected to hub-cloud.browserstack.com on port 80 (15176ms).
+ edge  Using: msedge (81.0.416.53) on windows platform.
+ edge  Results for:  Demo test
+ edge  ✔ Testing if the page title contains 'Tech Kid News' (113ms)
+ edge  ✔ Element <#termInput> was present after 906 milliseconds.
+ edge  ✔ Testing if element <input[id=termInput]> is visible (251ms)
+ edge  ✔ Testing if element <#textArea> contains text 'Marco' (249ms)
+ edge  ✔ edge [Homepage] Demo test (4.907s)

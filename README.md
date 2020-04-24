@@ -30,6 +30,9 @@ Link to test application: [Tech Kid News](https://bobs-playland-tests.netlify.ap
 ### Browserstack Configuration Location
 `conf/multiple.conf.js`
 
+### Nightwatch Test Output
+`images/test-output.txt`
+
 ### Jenkins Configurtion and Screenshots 
 **Jenkinsfile location:** `Jenkinsfile`
 **Jenkins screenshot location:** `images/`
