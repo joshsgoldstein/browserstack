@@ -34,9 +34,9 @@ Link to test application: [Tech Kid News](https://bobs-playland-tests.netlify.ap
 **Jenkinsfile location:** `Jenkinsfile`
 **Jenkins screenshot location:** `images/`
 
-###Run the tests
+### Run the tests
 To run the tests locally without jenkins use the following command:
-#####`npm test`
+##### `npm test`
 
 -------------------------------------------
 ## Running the application
