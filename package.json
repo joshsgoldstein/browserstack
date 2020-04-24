@@ -21,7 +21,7 @@
     "meow-safari": "nightwatch -c conf/multiple.conf.js -e safari",
     "meow-single-remote": "nightwatch -c conf/single.conf.js",
     "meow-local-all": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e safari,chrome,firefox,ie,edge",
-    "meow-local-ie": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e ie",
+    "meow-local-ie": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e safari",
     "meow-fox": "./scripts/nightwatch.local.runner.js -c conf/local.conf.js -e firefox,chrome,ie,edge"
   },
   "eslintConfig": {
@@ -34,6 +34,7 @@
       "not op_mini all"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

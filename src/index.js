@@ -4,6 +4,8 @@ import './index.css';
 import App from './components/App/App';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import * as serviceWorker from './serviceWorker';
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 ReactDOM.render(
   <React.StrictMode>

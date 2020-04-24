@@ -6,7 +6,9 @@ module.exports = {
     browser
       .url('http://localhost:3002')
       .assert.titleContains('Tech Kid News')
-      .assert.visible('input[id=termInput]')
+      .assert.waitForElementPresent('#termInput', 20000)
+      // .assert.visible('input[id=termInput]')
+      // .assert.visible('#termInput')
       .setValue('#termInput','Marco')
       .click('#clickButton')
       .assert.containsText('#textArea','Marco')
