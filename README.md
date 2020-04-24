@@ -3,7 +3,7 @@
 
 ## Challenge Overview/Scenario
 
-Create a development pipeline using browserstack as the hosted selenium.  The pipeline needs to include 3 assertions, 5 browsers tests, as well as deployed in a Jenkins CI pipeline.
+Create a development pipeline using browserstack as the hosted selenium.  The pipeline requirements include: deployment in a Jenkins CI pipeline, 3 assertions in test scripts, and 5 different browsers to test against.
 
 In this pipeline I will be testing the Tech Kid News application and the new text box I just added to the page. 
 
